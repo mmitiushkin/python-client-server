@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "item": "Computer",
+            "quantity": 10,
+            "price": 435,
+            "buyer": "Dmitriy",
+            "date": "2020-10-12"
+        },
+        {
+            "item": "Mouse",
+            "quantity": 15,
+            "price": 2356,
+            "buyer": "Ivan",
+            "date": "2021-09-25"
+        },
+        {
+            "item": "Keyboard",
+            "quantity": 54,
+            "price": 2454,
+            "buyer": "Danil",
+            "date": "2022-01-29"
+        }
+    ]
+}
