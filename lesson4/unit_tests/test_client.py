@@ -1,5 +1,8 @@
 import unittest
-from lesson3.client import *
+import sys
+import os
+sys.path.append(os.path.join(os.getcwd(), '..'))
+from client import *
 import time
 
 
