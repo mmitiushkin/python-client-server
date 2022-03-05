@@ -1,0 +1,12 @@
+2022-03-05 23:17:45,598 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2022-03-05 23:17:45,599 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-03-05 23:17:45,629 DEBUG    decorator.py Function create_presence was called from main
+2022-03-05 23:17:45,629 DEBUG    decorator.py Function create_presence((), {}), return {'action': 'presence', 'time': 1646511465.5991633, 'user': {'account_name': 'Guest'}}
+2022-03-05 23:17:45,662 DEBUG    decorator.py Function process_client_message was called from main
+2022-03-05 23:17:45,662 DEBUG    decorator.py Function process_client_message(({'action': 'presence', 'time': 1646511465.5991633, 'user': {'account_name': 'Guest'}},), {}), return {'response': 200}
+2022-03-05 23:17:45,662 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-03-05 23:17:45,664 DEBUG    decorator.py Function process_ans was called from main
+2022-03-05 23:17:45,664 DEBUG    decorator.py Function process_ans(({'response': 200},), {}), return 200 : OK
+2022-03-05 23:17:45,664 INFO     client.py Принят ответ от сервера 200 : OK
+2022-03-05 23:17:45,664 DEBUG    decorator.py Function main was called from <module>
+2022-03-05 23:17:45,665 DEBUG    decorator.py Function main((), {}), return None
